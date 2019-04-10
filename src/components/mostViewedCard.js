@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { Grid, Header, Image, Divider } from "semantic-ui-react";
 
 const MostViewedCard = ({ headline, summary, pub_date, img_url, section }) => {
@@ -26,3 +27,11 @@ const MostViewedCard = ({ headline, summary, pub_date, img_url, section }) => {
 };
 
 export default MostViewedCard;
+
+MostViewedCard.propTypes = {
+  headline: PropTypes.string.isRequired,
+  summary: PropTypes.string.isRequired,
+  pub_date: PropTypes.string.isRequired,
+  img_url: PropTypes.string.isRequired,
+  section: PropTypes.string.isRequired
+};

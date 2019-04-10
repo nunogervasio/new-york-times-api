@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { Grid, Header, Divider } from "semantic-ui-react";
 
 const MainCard = ({ headline, summary, img_url, section }) => {
@@ -22,3 +23,10 @@ const MainCard = ({ headline, summary, img_url, section }) => {
 };
 
 export default MainCard;
+
+MainCard.propTypes = {
+  headline: PropTypes.string.isRequired,
+  summary: PropTypes.string.isRequired,
+  img_url: PropTypes.string.isRequired,
+  section: PropTypes.string.isRequired
+};

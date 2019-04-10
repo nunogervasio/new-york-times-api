@@ -1,0 +1,530 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Content renders properly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Content />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": <Grid
+        centered={true}
+      >
+        <GridColumn
+          computer={7}
+          largeScreen={8}
+          mobile={14}
+          tablet={9}
+          widescreen={6}
+        >
+          <MostViewed />
+          <TopStoriesArts />
+        </GridColumn>
+        <GridColumn
+          computer={7}
+          largeScreen={6}
+          mobile={14}
+          tablet={5}
+          widescreen={4}
+        >
+          <Grid
+            columns="equal"
+          >
+            <GridColumn
+              computer={8}
+              tablet={16}
+            >
+              <TopStories />
+              <TopStoriesScience />
+            </GridColumn>
+            <GridColumn
+              only="computer"
+            >
+              <TopStories />
+            </GridColumn>
+          </Grid>
+        </GridColumn>
+      </Grid>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "centered": true,
+        "children": Array [
+          <GridColumn
+            computer={7}
+            largeScreen={8}
+            mobile={14}
+            tablet={9}
+            widescreen={6}
+          >
+            <MostViewed />
+            <TopStoriesArts />
+          </GridColumn>,
+          <GridColumn
+            computer={7}
+            largeScreen={6}
+            mobile={14}
+            tablet={5}
+            widescreen={4}
+          >
+            <Grid
+              columns="equal"
+            >
+              <GridColumn
+                computer={8}
+                tablet={16}
+              >
+                <TopStories />
+                <TopStoriesScience />
+              </GridColumn>
+              <GridColumn
+                only="computer"
+              >
+                <TopStories />
+              </GridColumn>
+            </Grid>
+          </GridColumn>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <MostViewed />,
+              <TopStoriesArts />,
+            ],
+            "computer": 7,
+            "largeScreen": 8,
+            "mobile": 14,
+            "tablet": 9,
+            "widescreen": 6,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <Grid
+              columns="equal"
+            >
+              <GridColumn
+                computer={8}
+                tablet={16}
+              >
+                <TopStories />
+                <TopStoriesScience />
+              </GridColumn>
+              <GridColumn
+                only="computer"
+              >
+                <TopStories />
+              </GridColumn>
+            </Grid>,
+            "computer": 7,
+            "largeScreen": 6,
+            "mobile": 14,
+            "tablet": 5,
+            "widescreen": 4,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <GridColumn
+                  computer={8}
+                  tablet={16}
+                >
+                  <TopStories />
+                  <TopStoriesScience />
+                </GridColumn>,
+                <GridColumn
+                  only="computer"
+                >
+                  <TopStories />
+                </GridColumn>,
+              ],
+              "columns": "equal",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": Array [
+                    <TopStories />,
+                    <TopStoriesScience />,
+                  ],
+                  "computer": 8,
+                  "tablet": 16,
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": <TopStories />,
+                  "only": "computer",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": <Grid
+          centered={true}
+        >
+          <GridColumn
+            computer={7}
+            largeScreen={8}
+            mobile={14}
+            tablet={9}
+            widescreen={6}
+          >
+            <MostViewed />
+            <TopStoriesArts />
+          </GridColumn>
+          <GridColumn
+            computer={7}
+            largeScreen={6}
+            mobile={14}
+            tablet={5}
+            widescreen={4}
+          >
+            <Grid
+              columns="equal"
+            >
+              <GridColumn
+                computer={8}
+                tablet={16}
+              >
+                <TopStories />
+                <TopStoriesScience />
+              </GridColumn>
+              <GridColumn
+                only="computer"
+              >
+                <TopStories />
+              </GridColumn>
+            </Grid>
+          </GridColumn>
+        </Grid>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "centered": true,
+          "children": Array [
+            <GridColumn
+              computer={7}
+              largeScreen={8}
+              mobile={14}
+              tablet={9}
+              widescreen={6}
+            >
+              <MostViewed />
+              <TopStoriesArts />
+            </GridColumn>,
+            <GridColumn
+              computer={7}
+              largeScreen={6}
+              mobile={14}
+              tablet={5}
+              widescreen={4}
+            >
+              <Grid
+                columns="equal"
+              >
+                <GridColumn
+                  computer={8}
+                  tablet={16}
+                >
+                  <TopStories />
+                  <TopStoriesScience />
+                </GridColumn>
+                <GridColumn
+                  only="computer"
+                >
+                  <TopStories />
+                </GridColumn>
+              </Grid>
+            </GridColumn>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <MostViewed />,
+                <TopStoriesArts />,
+              ],
+              "computer": 7,
+              "largeScreen": 8,
+              "mobile": 14,
+              "tablet": 9,
+              "widescreen": 6,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <Grid
+                columns="equal"
+              >
+                <GridColumn
+                  computer={8}
+                  tablet={16}
+                >
+                  <TopStories />
+                  <TopStoriesScience />
+                </GridColumn>
+                <GridColumn
+                  only="computer"
+                >
+                  <TopStories />
+                </GridColumn>
+              </Grid>,
+              "computer": 7,
+              "largeScreen": 6,
+              "mobile": 14,
+              "tablet": 5,
+              "widescreen": 4,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  <GridColumn
+                    computer={8}
+                    tablet={16}
+                  >
+                    <TopStories />
+                    <TopStoriesScience />
+                  </GridColumn>,
+                  <GridColumn
+                    only="computer"
+                  >
+                    <TopStories />
+                  </GridColumn>,
+                ],
+                "columns": "equal",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": Array [
+                      <TopStories />,
+                      <TopStoriesScience />,
+                    ],
+                    "computer": 8,
+                    "tablet": 16,
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {},
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {},
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": <TopStories />,
+                    "only": "computer",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
