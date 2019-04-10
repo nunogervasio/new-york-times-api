@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { theDate } from "../utils/dateAndTime";
 import { Header, Divider, Icon } from "semantic-ui-react";
 
@@ -30,3 +31,12 @@ const SectionCard = ({
 };
 
 export default SectionCard;
+
+SectionCard.propTypes = {
+  headline: PropTypes.string.isRequired,
+  summary: PropTypes.string.isRequired,
+  pub_date: PropTypes.string.isRequired,
+  sub_section: PropTypes.string.isRequired,
+  divider_icon: PropTypes.string.isRequired,
+  byline: PropTypes.string.isRequired
+};
